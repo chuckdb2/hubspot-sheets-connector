@@ -1,5 +1,10 @@
 {
+  "uid": "sheets_connector_app",
+  "type": "app",
   "config": {
+    "name": "Sheets Connector",
+    "description": "HubSpot → Google Sheets exporter (Contacts & Deals).",
+    "distribution": "private",
     "auth": {
       "type": "oauth",
       "redirectUrls": [
@@ -10,7 +15,13 @@
         "crm.objects.deals.read",
         "crm.export"
       ],
-      "optionalScopes": []
+      "optionalScopes": [],
+      "conditionallyRequiredScopes": []
+    },
+    "permittedUrls": {
+      "fetch": ["https://api.hubapi.com"],
+      "iframe": [],
+      "img": []
     }
   }
 }
