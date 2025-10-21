@@ -1,5 +1,5 @@
 {
-  "uid": "sheets_connector_app",
+  "uid": "sheets_connector_app_001",
   "type": "app",
   "config": {
     "name": "Sheets Connector",
@@ -14,14 +14,10 @@
         "crm.objects.contacts.read",
         "crm.objects.deals.read",
         "crm.export"
-      ],
-      "optionalScopes": [],
-      "conditionallyRequiredScopes": []
+      ]
     },
     "permittedUrls": {
-      "fetch": ["https://api.hubapi.com"],
-      "iframe": [],
-      "img": []
+      "fetch": ["https://api.hubapi.com"]
     }
   }
 }
