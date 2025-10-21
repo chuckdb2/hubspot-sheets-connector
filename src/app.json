@@ -1,8 +1,8 @@
 {
-  "uid": "sheets_connector_app_003",
+  "uid": "sheets_connector_app_004",
   "type": "app",
   "config": {
-    "name": "Sheets Connector App 003",
+    "name": "Sheets Connector App 004",
     "description": "HubSpot → Google Sheets exporter (Contacts & Deals).",
     "distribution": "private",
     "auth": {
