@@ -1,0 +1,6 @@
+{
+  "name": "hubspot-sheets-connector",
+  "description": "Public app for OAuth used by Google Sheets connector",
+  "type": "app",
+  "platformVersion": "2025.2"
+}
